@@ -1,0 +1,57 @@
+1. Noise tool 
+- Overview 
+- Counts, Rates, Rates/cm^2 
+- Strips conditions, algorithms 
+- Detailed run rate (per time interval) 
+- Web site, DB data and WBM - with reference to LB -> Roll model 
+- RE4 update 
+  
+  -- second part -- 
+  
+- noise tool and webpage details 
+- chain of analysis (noise data chain)
+- custom scripts for drawing plots
+- other stuff, future of noise page etc. 
+
+2. LinkBoard to Rolls model 
+- chambers modeling 
+- mapping strip to channel numbers
+- application in DB data translation
+- application in BK studies - online and offline
+- application in threshold callibration task - chip class and chips object
+- application in RE4 upgrade with the 
+
+3. Background studies with the noise tool
+- Linear correlation with the luminosity
+- Studies per chamber and per roll
+- Rate distribution along the detector - longitudinal, azimuthal, RPC2012
+- Luminometer idea, bad correlated plots from 2012
+- FLUKA measurements
+
+4. Threshold calibration study
+- threshold vs chip average rate plots
+- desirable rate values 
+
+5. RE4 Upgrade 
+- little bit about bakelite difference (read some paper)
+- little bit about chamber 
+- Cosmic stands 
+- data unification
+- event base model and Converter class
+- Cosmic stand class, config class, run details class and chamber class model 
+- analysis on efficiency cls etc
+- results from the analysis and differences with respect the old chambers
+- conclusions on analysis
+- chamber construction examples on few pages
+
+6. Other service stuff 
+
+7. Tprime participation 
+
+- expaining the model 
+- experiment set and results 
+
+8. Conclusions 
+
+Papers published on RPC with direct involvement 
+Papers on t' published 

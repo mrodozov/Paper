@@ -1,0 +1,63 @@
+%\documentclass[12pt,a4paper]{report}
+%\documentclass[12pt,a4paper]{book}
+\documentclass[8pt,a5paper]{report}
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{2}
+
+\usepackage{titlesec}
+\titleformat{\chapter}{\LARGE\bfseries}{\thechapter}{1em}{}
+%\renewcommand*{\chapterheadstartvskip}{\vspace*{1cm}}
+%\renewcommand*{\chapterheadendvskip}{\vspace{2cm}}
+
+% Пакети
+%\usepackage{a4wide} %за по-широк текст
+\usepackage{fullpage}
+\usepackage[margin=0.5in]{geometry}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage[bulgarian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc} %за кавичките
+\usepackage[pdftex]{graphicx} %за картинки
+\usepackage{hyperref}
+\usepackage{textcomp}
+
+%\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+%\usepackage{multirow}
+
+\hypersetup{colorlinks,
+linkcolor=black,
+urlcolor=black,
+citecolor=black,
+filecolor=black}
+\begin{document}
+\input{titleReferat.tex}
+\input{autoreferat/autoreferat.tex}
+\tableofcontents
+\chapter{Цели и структура на дисертацията}
+\input{autoreferat/celi.tex}
+\chapter{Детекторът CMS на LHC}
+\input{autoreferat/standartModel.tex}
+\input{autoreferat/lhc_cms.tex}
+\chapter{Работа на системата RPC на CMS}
+\input{autoreferat/promptAna.tex}
+\chapter{МК моделиране на RPC системата на CMS}
+\input{autoreferat/simulation.tex}
+\chapter{Идентификация на мюонните кандидати}
+\input{autoreferat/muId.tex}
+\chapter{Търсене на тежки неутрални бозони}
+\input{autoreferat/diMuReso.tex}
+\chapter{Заключение}
+\input{autoreferat/refprinosi.tex}
+%\chapter*{Благодарности}
+%\input{thanks.tex}
+\input{referatmyBibl.tex}
+%\chapter{Приложение - цветни фигури}
+%\input{autoreferat/refColorFigures.tex}
+
+\end{document}

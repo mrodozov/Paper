@@ -1,0 +1,91 @@
+
+Изследване на характеристиките и разработване на инструменти за контрол и мониторинг на
+камерите със съпротивителни плоскости от модернизацията на мюонната система на детектора CMS. 
+
+Изследване на характеристиките на камерите със съпротивителни плоскости от модернизацията/надстройката
+на мюонната система на детектора CMS.
+
+1 част
+
+1. Увод
+
+- Стандартен модел на елементарните частици
+- Програма на LHC и физика извън стандартния модел
+
+2. Експериментът CMS на големият адронен колайдър LHC
+
+  - LHC 
+  - CMS
+    subdetectors
+    
+3. Камери със съпротивителни плоскости на детектора CMS
+
+  - RPCs
+  - RPCs на CMS 
+  - LS1 Upgrade
+
+2. част
+
+1. Noise tool - Инструменти за мониторинг и контрол на шума и състоянието на катодните електроди на RPC. 
+  
+- Overview 
+- Counts, Rates, Rates/cm^2 
+- Strips conditions, algorithms 
+- Detailed run rate (per time interval) 
+- Web site, DB data and WBM - with reference to LB -> Roll model 
+- RE4 update 
+  
+  -- second part -- 
+  
+- noise tool and webpage details 
+- chain of analysis (noise data chain)
+- custom scripts for drawing plots
+- other stuff, future of noise page etc. 
+
+2. LinkBoard to Rolls model - Разширяем модел на RPC камерите - предназначение и приложения
+
+- chambers modeling 
+- mapping strip to channel numbers
+- application in DB data translation
+- application in BK studies - online and offline
+- application in threshold callibration task - chip class and chips object
+- application in RE4 upgrade with the 
+
+3. Background studies with the noise tool - Изследвания върху радиационния фон на CMS
+- Linear correlation with the luminosity
+- Studies per chamber and per roll
+- Rate distribution along the detector - longitudinal, azimuthal, RPC2012
+- Luminometer idea, bad correlated plots from 2012
+- FLUKA measurements
+
+4. Threshold calibration study - Калибриране прага на сигналната електроника чрез данните от шума 
+- threshold vs chip average rate plots
+- desirable rate values 
+
+5. RE4 Upgrade - Изследвания върху характеристиките на новите камерите от модернизацията на мюонните детектори 
+- little bit about bakelite difference (read some paper)
+- little bit about chamber 
+- Cosmic stands 
+- data unification
+- event base model and Converter class
+- Cosmic stand class, config class, run details class and chamber class model 
+- analysis on efficiency cls etc
+- results from the analysis and differences with respect the old chambers
+- conclusions on analysis
+- chamber construction examples on few pages
+
+6. Other service stuff 
+
+7. Tprime participation - Търсене на 
+
+- expaining the model 
+- experiment set and results 
+
+8. Conclusions 
+
+Papers published on RPC with direct involvement 
+Papers on t' published 
+
+
+
+
